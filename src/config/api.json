@@ -1,0 +1,114 @@
+{
+    "auth": {
+        "login": "auth/login",
+        "signUp": "auth/register",
+        "changePassword": "auth/change-password",
+        "forgotPassword": "auth/forgot-password",
+        "resetPassword": "auth/hash-token/update-password",
+        "verifyToken": "auth/verify-hash-token"
+    },
+    "ui": {
+        "loginPageComponentUI": "login-page-component-ui",
+        "privacyPolicyComponentUI": "privacy-policy-page-component-ui",
+        "blogPageComponentUI": "blog-page-component-ui",
+        "blogDetailsPageComponentUI": "blog-details-page-component-ui",
+        "TelephoneTermsComponentUI": "elephone-messaging-terms-and-condition-page-component-ui"
+    },
+    "cms": {
+        "commonCMS": "site/common-cms",
+        "aboutus": "site/about-page",
+        "homePage": "site/home-page",
+        "registerPage": "registration-page-cms",
+        "logInPage": "login-page-cms",
+        "termsConditionsPage": "terms-and-condition-cms",
+        "telephoneTermsConditionsPage": "site/telephone-terms-conditions-page",
+        "resetPass": "reset-password-page-cms",
+        "faq": "site/faq-page",
+        "privacyPolicy": "site/privacy-policy-page",
+        "termsConditions": "site/terms-conditions-page",
+        "headerFooter": "header-footer-cms",
+        "project": "site/project",
+        "strain": "site/strain-page",
+        "product": "site/product",
+        "services": "site/service-page",
+        "paymentPage": "site/payment-page",
+        "sellFranchaise": "sell-franchaise-page-cms",
+        "applyCareerModal": "apply-career-modal-cms",
+        "newFranchise": "site/new-franchise",
+        "homePageSectionCMS": "home-page-hero-section-cms",
+        "carrierspage": "site/carrier-page",
+        "agentPage": "site/agent-page"
+    },
+    "account": {
+        "getAddresses": "site/getUserAddresses",
+        "updateUserProfile": "users/update-user-profile",
+        "shippingAddress": "shipping-address",
+        "billingAddress": "billing-address"
+    },
+    "order": {
+        "ups": "ups-core/rates",
+        "place-order": "orders",
+        "place-order-guest": "orders/guest",
+        "get-order": "orders/filter",
+        "orderSuccess": "orders/order-details"
+    },
+    "contactus": {
+        "contactForm": "contact",
+        "newsLetter": "newsletter",
+        "contactUs": "site/contact-page"
+    },
+    "blog": {
+        "blogPage": "site/blog-page",
+        "blogDetails": "site/blogs"
+    },
+    "supportTicket": {
+        "tickets": "site/support-ticket",
+        "createTicket": "support-ticket"
+    },
+    "category": {
+        "categories": "category",
+        "categoryDetails": "category/category-details/",
+        "review": "category-review",
+        "details": "site/category"
+    },
+    "commom": {
+        "couponwithtax": "site/sales-tax-with-coupon",
+        "age": "age-verification-modal-cms"
+    },
+    "google": {
+        "authUserProfile": "https://www.googleapis.com/oauth2/v3/userinfo",
+        "login": "auth/google-login"
+    },
+    "career": {
+        "career": "site/career",
+        "careerApply": "career-applicant",
+        "careerPage": "site/career-page"
+    },
+    "agency": {
+        "list": "site/agency",
+        "details": "site/agency/"
+    },
+    "giftCard": {
+        "page": "site/gift-card-page"
+    },
+    "spa": {
+        "page": "site/spa-page"
+    },
+    "services": {
+        "list": "site/service-categories"
+    },
+    "stuff": "site/staff/filter",
+    "booking": {
+        "availableTimes": "staff/available-times",
+        "book": "bookings",
+        "details": "bookings/booking-details",
+        "all": "bookings/filter",
+        "giftcards": "user-giftcards/card",
+        "siteGiftcards": "site/user-giftcards"
+    },
+    "routing": "routing-states",
+    "insurance": {
+        "lead": "site/insurance-lead",
+        "delete": "insurance-lead/"
+    }
+}
