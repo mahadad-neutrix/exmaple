@@ -1,10 +1,10 @@
-'use client';
-import { useSession } from 'next-auth/react';
+// 'use client';
+// import { useSession } from 'next-auth/react';
 
 const Page = () => {
 
-    const session = useSession();
-    console.log("🚀 ~ file: page.tsx:16 ~ session:", session);
+    // const session = useSession();
+    // console.log("🚀 ~ file: page.tsx:16 ~ session:", session);
 
     return (
         <>

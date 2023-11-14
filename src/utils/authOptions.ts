@@ -1,7 +1,7 @@
+import NextAuth, { NextAuthOptions } from 'next-auth';
+import CredentialsProvider from 'next-auth/providers/credentials';
 import api from '@/config/api.json';
 import { postData } from '@/utils/apiCore';
-import { NextAuthOptions } from 'next-auth';
-import CredentialsProvider from 'next-auth/providers/credentials';
 
 const MINUTE = 60;
 const HOUR = 60 * MINUTE;
@@ -44,7 +44,7 @@ export const authOptions: NextAuthOptions = {
     ],
 
     pages: {
-        signIn: '/login',
+        // signIn: '/login',
         // signOut: '/signout',
         // error: '/login',
     },
